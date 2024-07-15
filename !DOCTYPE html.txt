@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nowfia's Blog</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #1f1f1f;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .content {
+            padding: 20px;
+        }
+        .tiktok-embed {
+            margin: 20px 0;
+        }
+        footer {
+            background-color: #1f1f1f;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Nowfia's Blog</h1>
+        <p>Showcasing my TikTok content and collaborations</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#tiktok-showcase">TikTok Showcase</a>
+        <a href="#collaborate">Collaborate</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="content" id="home">
+        <h2>About Me</h2>
+        <p>Hi! I'm Nowfia, and this is my blog where I showcase the content I post on TikTok. Follow me on TikTok @tuffets to see more!</p>
+    </div>
+    <div class="content" id="tiktok-showcase">
+        <h2>TikTok Showcase</h2>
+        <!-- Example TikTok embed, replace with actual TikTok links -->
+        <div class="tiktok-embed">
+            <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@tuffets" data-video-id="your-video-id" style="width: 325px; height: 574px;">
+                <section> </section>
+            </blockquote>
+            <script async src="https://www.tiktok.com/embed.js"></script>
+        </div>
+        <div class="tiktok-embed">
+            <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@tuffets" data-video-id="your-video-id" style="width: 325px; height: 574px;">
+                <section> </section>
+            </blockquote>
+            <script async src="https://www.tiktok.com/embed.js"></script>
+        </div>
+        <!-- Add more TikTok embeds as needed -->
+    </div>
+    <div class="content" id="collaborate">
+        <h2>Collaborate with Me</h2>
+        <p>If you'd like to collaborate with me, please reach out via the contact form below or message me on TikTok @tuffets.</p>
+    </div>
+    <div class="content" id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:nowfia@example.com" style="color: #1e90ff;">nowfia@example.com</a></p>
+    </div>
+    <footer>
+        <p>&copy; 2024 Nowfia's Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>
